@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolve - Soluciones Tecnológicas</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> <!-- Favicon -->
+    <!-- Enlace a Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Enlace a Google Fonts para tipografías -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Estilos CSS en un archivo separado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <!-- Sección de inicio -->
+            <section id="inicio">
+                <header>
+                    <h1>TechSolve</h1>
+                    <p><strong>Propietario:</strong> Lisandro Jiménez</p>
+                </header>
+
+                <!-- Objetivo del negocio -->
+                <h2>Objetivo del Negocio</h2>
+                <p>Proporcionar soluciones tecnológicas innovadoras y eficientes que impulsen el crecimiento y la productividad de nuestros clientes, facilitando su transformación digital y mejorando sus procesos empresariales.</p>
+            </section>
+
+            <!-- Sección de misión y visión -->
+            <section id="mision-vision">
+                <h2>Misión y Visión</h2>
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <h3>Misión</h3>
+                        <p>Ofrecer servicios y productos tecnológicos de alta calidad que resuelvan los desafíos específicos de nuestros clientes, mejorando su competitividad en el mercado digital.</p>
+                    </div>
+                    <div class="flex-item">
+                        <h3>Visión</h3>
+                        <p>Ser reconocidos como líderes en el sector de soluciones tecnológicas, destacando por nuestra innovación, excelencia en el servicio y compromiso con el éxito de nuestros clientes.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de servicios -->
+            <section id="servicios">
+                <h2>Nuestros Servicios</h2>
+                <div class="servicios-grid">
+                    <div class="servicio-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Desarrollo de software a medida</h3>
+                    </div>
+                    <div class="servicio-item">
+                        <i class="fas fa-digital-tachograph"></i>
+                        <h3>Consultoría en transformación digital</h3>
+                    </div>
+                    <div class="servicio-item">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Servicios de cloud computing</h3>
+                    </div>
+                    <div class="servicio-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Implementación de soluciones de ciberseguridad</h3>
+                    </div>
+                    <div class="servicio-item">
+                        <i class="fas fa-cogs"></i>
+                        <h3>Mantenimiento y soporte de sistemas informáticos</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de contacto -->
+            <section id="contacto" class="contact">
+                <h2>Contacto</h2>
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <p><strong>Teléfono:</strong> +58 123 456 7890</p>
+                        <p><strong>Correo:</strong> info@techsolve.com</p>
+                    </div>
+                    <div class="flex-item">
+                        <form>
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                            
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" required>
+                            
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" required></textarea>
+                            
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 TechSolve. Todos los derechos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
